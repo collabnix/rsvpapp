@@ -17,11 +17,11 @@ services:
     - "5000:5000"
    environment:
     MONGODB_HOST: mongodb
-    LINK: http://www.meetup.com/cloudyuga/
-    TEXT1: CloudYuga 
+    LINK: http://github.com/collabnix/dockerlabs
+    TEXT1: DockerLabs 
     TEXT2: Garage RSVP!
-    LOGO: https://raw.githubusercontent.com/cloudyuga/rsvpapp/master/static/cloudyuga.png
-    COMPANY: CloudYuga Technology Pvt. Ltd.
+    LOGO: https://logos-download.com/wp-content/uploads/2016/09/Docker_logo.png
+    COMPANY: Collabnix
    networks:
     - rsvpnet
 
